@@ -9,6 +9,8 @@ body {
 h1 {
   /* display: flex; */
   text-align: center;
+  padding: 20px;
+  
   
 }
 
@@ -52,8 +54,7 @@ footer {
   height: 60px;
   font-size: 14px;
   color: #000000;
-  border-radius: 5px;
-  margin-top: auto;
+  border-radius: 8px;
   
 }
 
