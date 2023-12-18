@@ -5,7 +5,11 @@ body {
    font-family: 'Source Code Pro', monospace;
    background-color: #E6E6FA;
    
-
+}
+h1 {
+  /* display: flex; */
+  text-align: center;
+  
 }
 
 .container {
@@ -16,10 +20,10 @@ body {
 .card {
   margin: 100px;
   background-color:	#FFFFFF;
-  width: 700px;
-  height: 710px;
-   border-radius: 30px; 
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+  width: 550px;
+  height: 680px;
+  border-radius: 30px; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
 
 .card>img {
   width: 100%;
@@ -40,3 +44,16 @@ p {
   color:#000000;
   font-size: 17px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  height: 60px;
+  font-size: 14px;
+  color: #000000;
+  border-radius: 5px;
+  margin-top: auto;
+  
+}
+
